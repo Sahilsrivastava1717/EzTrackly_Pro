@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <LandingPage />
+
+      <main className="pt-16">
+        <LandingPage />
+      </main>
+
       <Footer />
     </>
   );
