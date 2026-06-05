@@ -86,12 +86,12 @@ export default function AuthPage() {
 
           </form>
 
-          {/* <p className="mt-5 text-center text-sm text-gray-400">
+           <p className="mt-5 text-center text-sm text-gray-400">
             Admin?{" "}
             <a href="./admin-login" className="text-blue-700 hover:underline">
               Use the admin portal
             </a>
-          </p> */}
+          </p> 
         </div>
 
       </div>

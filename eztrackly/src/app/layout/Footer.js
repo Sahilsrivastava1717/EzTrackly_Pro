@@ -15,7 +15,7 @@ export default function Footer() {
 
           {/* Right — Links */}
           <div className="flex items-center gap-8">
-            <a href="/auth" className="text-gray-500 hover:text-black text-sm transition-colors">
+            <a href="/auth" className="text-gray-500 hover:text-black text-sm transition-colors ">
               Sign in
             </a>
             <a href="#modules" className="text-gray-500 hover:text-black text-sm transition-colors">

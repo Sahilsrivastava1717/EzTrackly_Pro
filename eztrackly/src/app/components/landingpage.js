@@ -78,7 +78,7 @@ export default function LandingPage() {
             </a>
             <a
               href="#modules"
-               className="w-45 inline-flex items-center justify-center px-6 py-2.5 rounded-lg text-sm font-semibold text-gray-700 border border-gray-300 bg-white hover:bg-gray-50 transition-all"
+              className="w-45 inline-flex items-center justify-center px-6 py-2.5 rounded-lg text-sm font-semibold text-gray-700 border border-gray-300 bg-white hover:bg-blue-50 hover:border-blue-300 hover:text-blue-800 active:bg-blue-100 active:border-blue-400 active:text-blue-900 shadow-sm hover:shadow-md transition-all duration-300"
             >
               Explore modules
             </a>
@@ -102,7 +102,7 @@ export default function LandingPage() {
           <div className="mx-auto mt-10 max-w-5xl">
             <div className="rounded-2xl border border-gray-200 bg-white p-2 shadow-2xl shadow-indigo-100">
               <div className="rounded-xl border border-gray-100 bg-gradient-to-br from-gray-50 to-white p-6 md:p-8">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
                   {modules.slice(0, 4).map((m) => (
                     <div key={m.title} className="rounded-lg border border-gray-200 bg-white p-4 text-left shadow-sm">
                       <div className="flex items-center justify-center w-8 h-8 rounded-md bg-indigo-50">
@@ -113,7 +113,7 @@ export default function LandingPage() {
                     </div>
                   ))}
                 </div>
-                <div className="mt-4 grid grid-cols-3 gap-3">
+                <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
                     <div className="text-xs text-gray-400">Active today</div>
                     <div className="mt-1 text-2xl font-bold text-gray-900">42</div>
@@ -138,7 +138,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── Modules ── */}
-      <section id="modules" className="border-t border-gray-100 py-16">
+      <section id="modules" className="py-16">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mx-auto max-w-2xl text-center">
             <div className="text-xs font-semibold uppercase tracking-widest text-indigo-600">Modules</div>
@@ -169,7 +169,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── Features ── */}
-      <section id="features" className="border-t border-gray-100 bg-gray-50 py-16">
+      <section id="features" className="py-16">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
           <div>
             <div className="text-xs font-semibold uppercase tracking-widest text-indigo-600">Why EzTrackly</div>
@@ -197,7 +197,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section id="cta" className="border-t border-gray-100 py-16">
+      <section id="cta" className=" py-16">
         <div className="mx-auto max-w-4xl px-6">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 to-blue-500 p-10 text-center text-white shadow-2xl shadow-indigo-200 md:p-14">
             <div className="pointer-events-none absolute inset-0 opacity-25">
@@ -222,7 +222,7 @@ export default function LandingPage() {
               </a>
               <a
                 href="./auth"
-                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg border border-white/40 bg-transparent text-white text-sm font-semibold hover:bg-white/10 transition-colors"
+                 className="w-40 inline-flex items-center justify-center px-6 py-2.5 rounded-lg border border-white/40 bg-transparent text-white text-sm font-semibold hover:bg-white/20 transition-colors"
               >
                 Sign in
               </a>

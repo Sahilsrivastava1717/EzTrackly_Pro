@@ -35,17 +35,17 @@ export default function Navbar() {
           </div>
 
           {/* Right Section */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2">
             <a
               href="/auth"
-              className="text-gray-900 text-sm md:text-base font-medium hover:text-blue-600 transition"
+              className="text-gray-900 text-sm md:text-base font-medium px-3 py-1 rounded-xl hover:bg-blue-100 hover:text-blue-900 hover:border hover:border-blue-200 hover:shadow-sm transition-all duration-300"
             >
               Sign in
             </a>
 
             <a
               href="/auth"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-lg text-sm font-medium flex items-center gap- transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
             >
               Start free
               <span>→</span>
