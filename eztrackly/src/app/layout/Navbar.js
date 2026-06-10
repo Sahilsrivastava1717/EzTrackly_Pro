@@ -13,6 +13,12 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-10">
             <a
+              href="/dashboard"
+              className="text-gray-600 hover:text-gray-900 transition"
+            >
+              Dashboard
+            </a>
+            <a
               href="#modules"
               className="text-gray-600 hover:text-gray-900 transition"
             >
